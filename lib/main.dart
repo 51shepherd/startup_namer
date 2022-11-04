@@ -53,8 +53,8 @@ class _MyHomePageState extends State<MyHomePage> {
   final _globalKey = GlobalKey<ScaffoldState>();
   Future<void> _docScanner(BuildContext context) async {
     try {
-      FlutterGeniusScan.setLicenceKey(
-          '533c50065356000209500e5939525a0e4a13400557425b5a035a471245594455055d011116414c6854040602525102035750');
+      // please replace with our license key
+      FlutterGeniusScan.setLicenceKey('******');
       var configuration = {
         'source': 'camera',
         'defaultFilter': 'monochrome',
